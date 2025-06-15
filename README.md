@@ -80,8 +80,19 @@ The app demonstrates real-world API usage through:
 
 ---
 ![image](https://github.com/user-attachments/assets/f27186ef-bc51-4762-93dc-10f873b83a3f)
+on mobile
+![image](https://github.com/user-attachments/assets/e3c75e5b-eea7-4402-982e-7f392bfd0dda)
+
 ![image](https://github.com/user-attachments/assets/2e4645c1-fcf9-4f6f-8db5-b8033c436efd)
+![image](https://github.com/user-attachments/assets/cc357804-f431-4bff-82a7-2a890ed7c8a2)
+
+![image](https://github.com/user-attachments/assets/f7c9aaa4-499f-45c0-ac02-9d0595f6f0f0)
+![image](https://github.com/user-attachments/assets/21d1241f-d1ce-45c0-b11d-d4d9640ad685)
+
 ![image](https://github.com/user-attachments/assets/4588c275-f04d-4fb6-8d99-e6075d6a1d50)
+
+![image](https://github.com/user-attachments/assets/a36ae053-476b-4d9a-bb14-7b91fc5e4b08)
+
 ![image](https://github.com/user-attachments/assets/de429957-f5c9-43ce-99a8-597b99bd519d)
 ![image](https://github.com/user-attachments/assets/32e1d112-51ac-41e1-961a-7ff4cb4ff8f8)
 ## 🚀 Setup & Run
