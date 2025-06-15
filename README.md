@@ -80,6 +80,9 @@ The app demonstrates real-world API usage through:
 
 
 ---
+![image](https://github.com/user-attachments/assets/30a45ce3-b27d-488c-b1b7-3b07ef5212bf)
+![image](https://github.com/user-attachments/assets/5cfee39d-3c29-4d8a-a6e6-216e933a2b3d)
+
 
 ## 🚀 Setup & Run
 
