@@ -88,7 +88,7 @@ The app demonstrates real-world API usage through:
 
 ```bash
 # Clone the repository
-git clone <repo-url> && cd <project-dir>
+git clone https://github.com/Alibrahm/REMWaste && cd REMWaste
 
 # Install dependencies
 npm install
