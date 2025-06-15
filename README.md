@@ -95,6 +95,9 @@ on mobile
 
 ![image](https://github.com/user-attachments/assets/de429957-f5c9-43ce-99a8-597b99bd519d)
 ![image](https://github.com/user-attachments/assets/32e1d112-51ac-41e1-961a-7ff4cb4ff8f8)
+corresponding mobile 
+![image](https://github.com/user-attachments/assets/f1596d0f-d573-4df8-b36f-a01d680d8063)
+
 ## 🚀 Setup & Run
 
 ```bash
