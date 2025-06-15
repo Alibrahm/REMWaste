@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* 
+@font-face {
+  font-family: 'Nexa';
+  src: url('../public/fonts/Nexa-ExtraLight.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Nexa, sans-serif;
+  overflow-y: auto;
+}
+
+:root {
+  --font-heading: var(--font-my-custom-font);
+}
+
+h1,
+.heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #2b2b2b;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5c5c5c;
+}
+
+@theme inline {
+  --animate-aurora: aurora 60s linear infinite;
+
+  @keyframes aurora {
+    from {
+      background-position:
+        50% 50%,
+        50% 50%;
+    }
+
+    to {
+      background-position:
+        350% 50%,
+        350% 50%;
+    }
+  }
+}
+
+@keyframes blob {
+  0%, 100% { transform: scale(1) translate(0, 0); }
+  33% { transform: scale(1.1) translate(10px, -10px); }
+  66% { transform: scale(0.9) translate(-10px, 10px); }
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+}
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+@keyframes subtleFloat {
+  0% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-5px) scale(1.01); } /* Slightly move up and scale */
+  100% { transform: translateY(0px) scale(1); }
+}
+
+.animate-subtle-float {
+  animation: subtleFloat 4s ease-in-out infinite;
+}
+
+/* ⭐ NEW: More pronounced animation for the large central skip */
+@keyframes subtleFloatLg {
+  0% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-10px) scale(1.02); } /* Moves up a bit more, slightly scales */
+  100% { transform: translateY(0px) scale(1); }
+}
+
+.animate-subtle-float-lg {
+  animation: subtleFloatLg 6s ease-in-out infinite; /* Slower and more prominent */
+}
