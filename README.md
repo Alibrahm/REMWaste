@@ -78,12 +78,12 @@ The app demonstrates real-world API usage through:
 - **Postcode Anywhere API**: Address lookup & suggestions using `useAddressLookupSWR` and `useAddressRetrieveSWR`.
 - **Extensible Architecture**: Easily adaptable to include live skip data from: https://app.wewantwaste.co.uk/api/skips/by-location
 
-
 ---
-![image](https://github.com/user-attachments/assets/30a45ce3-b27d-488c-b1b7-3b07ef5212bf)
-![image](https://github.com/user-attachments/assets/5cfee39d-3c29-4d8a-a6e6-216e933a2b3d)
-
-
+![image](https://github.com/user-attachments/assets/f27186ef-bc51-4762-93dc-10f873b83a3f)
+![image](https://github.com/user-attachments/assets/2e4645c1-fcf9-4f6f-8db5-b8033c436efd)
+![image](https://github.com/user-attachments/assets/4588c275-f04d-4fb6-8d99-e6075d6a1d50)
+![image](https://github.com/user-attachments/assets/de429957-f5c9-43ce-99a8-597b99bd519d)
+![image](https://github.com/user-attachments/assets/32e1d112-51ac-41e1-961a-7ff4cb4ff8f8)
 ## 🚀 Setup & Run
 
 ```bash
