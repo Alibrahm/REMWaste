@@ -35,7 +35,8 @@ const SkipCard: React.FC<SkipCardProps> = ({ skip, isSelected, onSelect, hovered
 
   const handleViewProduct = (e: React.MouseEvent) => {
     e.stopPropagation();
-    router.push(`/skip-details/${skip.id}`);
+    // router.push(`/skip-details/${skip.id}`);
+    router.push(`/skip-details/6565`);
   };
 
   const isCurrentCardHovered = hoveredCardId === skip.id;
